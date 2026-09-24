@@ -1,0 +1,25 @@
+PBL-I Comparative Analysis Status
+
+Classification analysis completed using the available XGBoost results.
+
+Classification threshold:
+Dst <= -50 nT = Storm
+Dst > -50 nT = Quiet
+
+Test results:
+Accuracy = 81.20%
+Storm Precision = 22.54%
+Storm Recall = 62.75%
+Storm F1-score = 33.16%
+
+Test confusion matrix:
+TN = 1575
+FP = 330
+FN = 57
+TP = 96
+
+Validation contains zero storm events, so validation storm-detection metrics
+are not suitable for judging classification performance.
+
+Regression results are pending from the regression owner and will be added
+to the final PBL-I comparative analysis when available.
